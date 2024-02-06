@@ -7,6 +7,9 @@ function App() {
   const teste = (valor) => (
     <div className="App">
       <header className="App-header">
+        <label>
+          Nome: <input className="texto" type="text"/>
+        </label>
         <img src={logo} className="App-logo" alt="logo" />
         <p>{valor}</p>
         <a
