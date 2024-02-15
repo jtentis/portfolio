@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 100s linear;
   }
 }
 
@@ -57,7 +57,7 @@
 }
 
 .texto:focus{
-  transform: scale(1.07);
+  transform: scale(1.04);
   transition: all ease-in-out 0.2s;
   outline: none;
 }
